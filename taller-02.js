@@ -13,7 +13,7 @@ function findMax(L) {
 }
 
 function includes(L,n) {
-    let inc = false
+    let inc = false 
     for(let i = 0; i<L.length; i++){
         if(n==L[i]){
             inc = true
